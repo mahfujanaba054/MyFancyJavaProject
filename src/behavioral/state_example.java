@@ -4,14 +4,14 @@ package behavioral;
 
  interface SwitchState
  {
-	void pressSwitch(Remote remote);
+	void pSwitch(Remote remote);
  }
 
 
  class Off implements SwitchState
  { 
 	 @Override
-	 public void pressSwitch(Remote remote){
+	 public void pSwitch(Remote remote){
 		 System.out.println("I am Off .Going to be On now");
 		 remote.setState(new On());
 	 }
@@ -20,7 +20,7 @@ package behavioral;
  class On implements SwitchState
  {
 	  @Override
-	  public void pressSwitch(Remote remote)
+	  public void pSwitch(Remote remote)
 	  {
 		  System.out.println("I am already On .Going to be Off now");
 		  remote.setState(new Off());
@@ -46,7 +46,7 @@ package behavioral;
 	  
 	  public void pressButton()
 	  {
-		  state.pressSwitch(this);
+		  state.pSwitch(this);
 	  }
 	  
  }
