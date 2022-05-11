@@ -1,17 +1,7 @@
 package structural;
 
 
-class Rectangle
-{
-	public double l;
-	public double w;
-	public Rectangle(double l, double w) {
-		this.l = l;
-		this.w = w;
-	}
-	
-	
-}
+
 
 
 class Triangle
