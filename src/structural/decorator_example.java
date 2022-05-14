@@ -8,7 +8,7 @@ interface Shape
 }
 
 
-class Circle implements Shape
+class Round implements Shape
 {
 	 @Override
 	 public void draw()
