@@ -1,13 +1,12 @@
 package creational.pattern;
 
 
-interface Shape
-{
+interface design{
 	void draw();
 }
 
 
-class Circle implements Shape
+class Circle implements design
 {
 	 @Override
 	 public void draw()
@@ -17,12 +16,12 @@ class Circle implements Shape
 }
 
 
-class Square implements Shape
+class Square implements design
 {
 	 @Override
 	 public void draw()
 	 {
-		 System.out.println("a square drawn");
+		 System.out.println("a square made");
 	 }
 }
 
