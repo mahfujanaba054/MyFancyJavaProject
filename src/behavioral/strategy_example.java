@@ -2,7 +2,7 @@ package behavioral;
 
 
 
- interface Strategy
+ interface Rules
  {
 	int doAction(int a , int b);
  }
