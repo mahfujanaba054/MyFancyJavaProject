@@ -2,10 +2,7 @@ package behavioral;
 
 
 
- interface SwitchState
- {
-	void pSwitch(Remote remote);
- }
+ 
 
 
  class Off implements SwitchState
